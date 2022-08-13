@@ -1,12 +1,34 @@
 <div align = "center">
-  <img width="600" alt="Kath is in the Sandbox, Creating" src="https://user-images.githubusercontent.com/90014122/176261587-caa469fc-bf85-45ce-834b-fe0eb72530b9.png">
+  <img width="600" alt="Projetotudo de bom" src="https://user-images.githubusercontent.com/90014122/184505066-7cf779f3-2bc6-4d85-b28c-d14f88e1edd4.png">
   <br>
-  <p>Pong é um jogo eletrônico de esporte de arcade com temática de tênis de mesa, com gráficos bidimensionais</p>
+  <p>Sistema de cadastramento de aplicações para Farmácia Tudo De Bom.</p>
 </div>
 
 
 <h1>Objetivo</h1>
-<p>Criar um jogo utilizando a linguagem Javascript com o movimentos realizados via keyboard, emitindo sons no momento em que os jogadores marcam pontos</p>
+<p>Criar um sistema utilizando a linguagem Java para Cadastrar clientes, produto e entregar o histórico dos pedidos</p>
+<h2>ENTREGAS MÍNIMAS</h2>
+
+<h3>Back-end:</h3>
+<ul>
+<li>Cadastro de clientes</li>
+<li>Listagem de clientes</li>
+<li>Atualização de clientes</li>
+<li>Deletar clientes</li>
+<li>Histórico de transações entre contas</li>
+<li>Controle de estoque</li>
+<li>Medicamentos genéricos contêm 20% de desconto.</li>
+</ul>
+<h3>Gerais:</h3>
+<ul>
+<li>O código deve ser entregue em um repositório no Github.</li>
+<li>A API deve conter todos os Métodos GET, PUT, POST, DELETE</li>
+<li>Liste os endpoints no README.md</li>
+<li>Testes automatizados, podem ser testes unitários ou testes de integração.</li>
+ </ul>
+<h3>CRITÉRIOS DE AVALIAÇÃO</h3>
+ 
+<p>Documentação da Aplicação</p>
 
 <h2>Descrição</h2>
 <div>
