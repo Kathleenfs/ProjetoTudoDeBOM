@@ -17,9 +17,7 @@
   <p>Onde fica todo o cálculo realizado para o momento de colisão do jogo e é chamada dentro da function verificaColisaoRaquete(x, y)</p>
  
 </div>
-<h3>Tecnologias utilizadas</h3>
+<h3>Tecnologia utilizada</h3>
 <div style="display: inline_block"><br>
-  <img align="center" alt="kath-Js" height="50" width="70" src="https://raw.ghttps://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg">
-  <img align="center" alt="kath-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="kath-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="center" alt="kath-Java" height="50" width="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg">
  </div>
