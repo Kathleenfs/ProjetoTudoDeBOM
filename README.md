@@ -1,7 +1,6 @@
 <div align = "center">
   <img width="600" alt="Projetotudo de bom" src="https://user-images.githubusercontent.com/90014122/184505066-7cf779f3-2bc6-4d85-b28c-d14f88e1edd4.png">
   <br>
-  <p>Sistema de cadastramento de aplicações para Farmácia Tudo De Bom.</p>
 </div>
 
 
@@ -32,11 +31,13 @@
 
 <h2>Descrição</h2>
 <div>
-<p> O programa é separado em dois arquivos principais:</p>
-    <ul><li>Sketch.js</li></ul>
-        <p>Onde no código existem treze funções diferentes.Entre elas funcões para tocar músicas relacionadas ao processo do jogo.Funções para guardar os movimentos realizados via keyboard, funções para realizar a contagem do placar e por fim função para informar a colisão da bola contra a raquete. </p> 
-    <ul><li>P5.collide</li></ul>
-  <p>Onde fica todo o cálculo realizado para o momento de colisão do jogo e é chamada dentro da function verificaColisaoRaquete(x, y)</p>
+<p> O programa é separado em x arquivos principais:</p>
+    <ul><li>Classe Cliente</li></ul>
+        <p>Possui cinco métodos:  . </p> 
+    <ul><li>Classe Produto</li></ul>
+  <p>Possui cinco métodos</p>
+      <ul><li>Classes Principais</li></ul>
+  <p>Onde a execução dos métodos são realizados</p>
  
 </div>
 <h3>Tecnologia utilizada</h3>
