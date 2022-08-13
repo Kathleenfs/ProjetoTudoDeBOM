@@ -37,7 +37,7 @@
     <ul><li>Classe Produto</li></ul>
   <p>Possui cinco métodos</p>
       <ul><li>Classes Principais</li></ul>
-  <p>Onde a execução dos métodos são realizados</p>
+  <p>Onde a execução dos métodos são realizadas</p>
  
 </div>
 <h3>Tecnologia utilizada</h3>
