@@ -5,7 +5,7 @@
 
 
 <h1>Objetivo</h1>
-<p>Criar um sistema utilizando a linguagem Java para Cadastrar clientes, produto e entregar o histórico dos pedidos</p>
+<p>Criar uma API utilizando a linguagem Java para Cadastrar clientes, produto e entregar o histórico dos pedidos</p>
 <h2>ENTREGAS MÍNIMAS</h2>
 
 <h3>Back-end:</h3>
@@ -29,18 +29,22 @@
  
 <p>Documentação da Aplicação</p>
 
-<h2>Descrição</h2>
+<h2>Descrição ENDPOINTS</h2>
 <div>
 <p> O programa é separado em x arquivos principais:</p>
     <ul><li>Classe Cliente</li></ul>
         <p>Possui cinco métodos:  . </p> 
     <ul><li>Classe Produto</li></ul>
   <p>Possui cinco métodos</p>
+    <ul><li>Classe Pedido</li></ul>
+  <p>Possui cinco métodos</p>
       <ul><li>Classes Principais</li></ul>
   <p>Onde a execução dos métodos são realizadas</p>
  
 </div>
-<h3>Tecnologia utilizada</h3>
+<h3>Tecnologias utilizadas</h3>
 <div style="display: inline_block"><br>
   <img align="center" alt="kath-Java" height="50" width="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg">
+  <img align="center" alt="kath-Java" height="50" width="70"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg" />
+  <img align="center" alt="kath-Java" height="50" width="90" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
  </div>
