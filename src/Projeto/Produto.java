@@ -18,33 +18,38 @@ public class Produto {
 		}
 	}
 	
-	public void listarProdutos() {	
-		try {
-					
-				query = "select * from produto";
-				pstm = connection.prepareStatement(query);
-				resultset = pstm.executeQuery();
-				
-				while(this.resultset.next()) {
-					
-					String meuId = resultset.getString("id_produto");
-					String meuNome = resultset.getString("nome_produto");
-					String meuPreco = resultset.getString("preco_produto");
-					String mGenerico = resultset.getString("generico");
-					String mDescricao = resultset.getString("desc_produto");
 	
-					
-					System.out.println("id: "+meuId);
-					System.out.println("Nome:"+meuNome);
-					System.out.println("Preco:"+meuPreco);
-					System.out.println("Generico: "+mGenerico);
-					System.out.println("Descricao:"+mDescricao);
-				}
-			
-			}catch(Exception e ) {
-				System.out.println("Erro "+e.getMessage());
-			}
-		}
+	public void listarProdutos() {
+        try {
+
+                query = "select * from produto";
+                pstm = connection.prepareStatement(query);
+                resultset = pstm.executeQuery();
+
+                while(this.resultset.next()) {
+
+                    String prodId = resultset.getString("id_produto");
+                    String prodNome = resultset.getString("nome_produto");
+                    Double prodPreco = resultset.getDouble("preco_produto");
+                    String Generico = resultset.getString("generico");
+                    String Descricao = resultset.getString("desc_produto");
+
+
+                    System.out.println("id: "+prodId);
+                    System.out.println("Nome:"+prodNome);
+                    System.out.println("Preco:"+prodPreco);
+                    System.out.println("Generico: "+Generico);
+                    System.out.println("Descricao:"+Descricao);
+                    if (Generico.equals("sim")){
+
+                        System.out.printf("Valor com desconto: R$ %.2f\n",(prodPreco *0.8));
+                    }
+
+                }
+            }catch(Exception e ) {
+                System.out.println("Erro "+e.getMessage());
+            }
+        }
 	public void insereProduto(String nome, String preco,String qtd,String generico,String descricao) {
 		
 		
