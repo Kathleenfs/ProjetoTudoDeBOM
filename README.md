@@ -5,7 +5,7 @@
 
 
 <h1>Objetivo</h1>
-<p>Criar um sistema utilizando a linguagem Java para Cadastrar clientes, produto e entregar o histórico dos pedidos</p>
+<p>Criar uma API utilizando a linguagem Java para Cadastrar clientes, produto e entregar o histórico dos pedidos</p>
 <h2>ENTREGAS MÍNIMAS</h2>
 
 <h3>Back-end:</h3>
@@ -29,18 +29,34 @@
  
 <p>Documentação da Aplicação</p>
 
-<h2>Descrição</h2>
+<h2>Descrição ENDPOINTS</h2>
 <div>
-<p> O programa é separado em x arquivos principais:</p>
-    <ul><li>Classe Cliente</li></ul>
-        <p>Possui cinco métodos:  . </p> 
-    <ul><li>Classe Produto</li></ul>
-  <p>Possui cinco métodos</p>
-      <ul><li>Classes Principais</li></ul>
-  <p>Onde a execução dos métodos são realizadas</p>
+<p>O programa é divide entre os endpoints das 3 entidades, cliente, pedido, produto
+<p>Cliente, os campos para criação de um novo cliente são:</p>
+<p>nome, cpf, email, tel</p>
+<ul>
+<li>POST: http://localhost:8080/client</li>
+<li>GET: http://localhost:8080/client</li>
+<li>DELETE: http://localhost:8080/client/{id do cliente}</li>
+<li>PUT: http://localhost:8080/client/{id do clinte}</li>
+</ul>
+<p>Pedido, o campo para criação de um novo pedido é:</p>
+<p>id_cliente</p>
+ <ul>
+ <li>POST: http://localhost:8080/pedido</li>
+ <li>GET: http://localhost:8080/pedido</li>
+ </ul>
  
+<p>Produto, os campos para criação de um novo pedido são:</p>
+<p>id_pedido, nome, desc_produto, preco_produto, generico_produto</p>
+<ul>
+<li>POST: http://localhost:8080/produto</li>
+<li>GET: http://localhost:8080/produto</li>
+</ul>
 </div>
-<h3>Tecnologia utilizada</h3>
+<h3>Tecnologias utilizadas</h3>
 <div style="display: inline_block"><br>
   <img align="center" alt="kath-Java" height="50" width="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg">
+  <img align="center" alt="kath-Java" height="50" width="70"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg" />
+  <img align="center" alt="kath-Java" height="50" width="90" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
  </div>
