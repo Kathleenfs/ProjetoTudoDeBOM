@@ -54,8 +54,6 @@
 <li>GET: http://localhost:8080/produto</li>
 </ul>
 </div>
- 
-</div>
 <h3>Tecnologias utilizadas</h3>
 <div style="display: inline_block"><br>
   <img align="center" alt="kath-Java" height="50" width="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg">
